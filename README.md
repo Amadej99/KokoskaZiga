@@ -15,7 +15,7 @@
 - Goriska
 - Gorenjska
 
-Regijam dodamo stran balončka, katerega besedilo želimo nadomestiti (Levo ali Desno) npr PrimorskonotranjskaDesno
+Regijam dodamo stran balončka, katerega besedilo želimo nadomestiti (Left ali Right) npr PrimorskonotranjskaRight
 
 #### Seznam CSS razredov
 
@@ -57,31 +57,31 @@ Regijam dodamo stran balončka, katerega besedilo želimo nadomestiti (Levo ali 
 
   - upravlja s predstavitvijo imen regij (barva, font, ...)
   - ```css
-    .regija_ime {
+    .regija_name {
       fill: #5c5c5c;
       font-weight: bold;
     }
     ```
 
-- .regija_stevilo_left_container
+- .regija_number_left_container
 
   - upravlja z levim balonckom
   - ```css
-    .regija_stevilo_left_container {
+    .regija_number_left_container {
       fill: #56762d;
     }
     ```
 
-- .regija_stevilo_right_container
+- .regija_number_right_container
 
   - upravlja z desnim balonckom
   - ```css
-    .regija_stevilo_right_container {
+    .regija_number_right_container {
       fill: #5c5c5c;
     }
     ```
 
-- .regija_stevilo_left
+- .regija_number_left
 
   - upravlja s predstavitvijo stevila v levem baloncku
   - ```css
@@ -91,7 +91,7 @@ Regijam dodamo stran balončka, katerega besedilo želimo nadomestiti (Levo ali 
     }
     ```
 
-- .regija_stevilo_right
+- .regija_number_right
   - upravlja s predstavitvijo stevila v desnem baloncku
   - ```css
     .regija_stevilo_right {
